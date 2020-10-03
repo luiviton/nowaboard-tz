@@ -1,0 +1,395 @@
+/* .............блок сфера деятельности................... */
+
+.purview {
+	background-image: url(../image/block-purview/bgrnd.jpg);
+	background-repeat: no-repeat;
+	margin: auto;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.purview__content {
+	width: 1225px;
+	margin: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.purview__heading h2 {
+	font-size: 2em;
+}
+
+.purview__heading {
+	font-family: EuropeExt, sans-serif;
+	color: #073d79;
+	margin-top: 40px;
+	font-weight: bold;
+
+}
+
+.purview__bases {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.purview__civil {
+	background-image: url(../image/block-purview/bigstock-building-under-.jpg);
+	background-repeat: no-repeat;
+	margin: 35px 3px;
+	width: 50%;
+	height: 310px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	color: white;
+	font-size: 1.9em;
+}
+
+.purview__civil::after {
+	content: '';
+	background-image: url(../image/block-purview/Rectangle-7.png);
+	width: 100%;
+	height: 310px;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0; 
+}
+
+.purview__industrial {
+	background-image: url(../image/block-purview/iStock_000013825372_Large.jpg);
+	background-repeat: no-repeat;
+	margin: 35px 3px;
+	width: 50%;
+	height: 310px;
+	position: relative;
+	color: white;
+	font-size: 1.9em;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.purview__industrial::after {
+	content: '';
+	background-image: url(../image/block-purview/Rectangle-7.png);
+	width: 100%;
+	height: 310px;
+	opacity: 0.5;
+	position: absolute;
+	z-index: 5;
+	top: 0;
+	left: 0; 
+}
+
+.purview__civil__heading {
+	margin: 20px 45px 20px 0;
+	z-index: 10;
+	font-size: 0.9em;
+}
+
+.purview__bases__left-1 {
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-1.1.jpg);
+	margin: 70px 0 10px 0;
+	font-size: 0.5em;
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
+	padding: 2px 45px;
+}
+
+.purview__bases__left-1::after {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-1-2.png);
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -45px;
+}
+.purview__bases__left-1::before {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-1-3.png);
+	width: 100px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -95px;
+}
+
+.purview__bases__left-2 {
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-2.1.jpg);
+	margin: 100px 0 10px 0;
+	font-size: 0.5em;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	top: 0;
+	padding: 2px 45px;
+}
+
+.purview__bases__left-2::after {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-2-2.png);
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -45px;
+}
+.purview__bases__left-2::before {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-2-3.png);
+	width: 100px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -95px;
+}
+
+.purview__bases__left-3 { 
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy3-1.jpg);
+	margin: 130px 0 10px 0;
+	font-size: 0.5em;
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	top: 0;
+	padding: 2px 45px;
+}
+
+.purview__bases__left-3::after {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-3-2.png);
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -45px;
+}
+.purview__bases__left-3::before {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-3-3.png);
+	width: 100px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	left: -95px;
+}
+
+.purview__civil__footer {
+	background-image: url(../image/block-purview/Rectangle-8.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 24px;
+	position: absolute;
+	top: 285px;
+	left: 0;
+	z-index: 10;
+}
+
+.purview__civil__footer::after {
+	content: '';
+	background-image: url(../image/block-purview/logo-text.png);
+	background-repeat: no-repeat;
+	width: 169px;
+	height: 15px;
+	position: absolute;
+	right: 45px;
+	top: 5px;
+	z-index: 10;
+}
+
+.purview__civil__footer::before {
+	content: '';
+	background-image: url(../image/block-purview/logo-white.png);
+	background-repeat: no-repeat;
+	width: 19px;
+	height: 17px;
+	position: absolute;
+	right: 220px;
+	top: 5px;
+	z-index: 10;
+}
+
+/* ...................... */
+
+.purview__industrial__heading {
+	position: absolute;
+	left: 45px;
+	top: 20px;
+	z-index: 10;
+	font-size: 0.9em;
+}
+
+.purview__bases__right-1 {
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy4-1.jpg);
+	margin: 70px 0 10px 0;
+	font-size: 0.5em;
+	position: absolute;
+	z-index: 10;
+	padding: 2px 45px;
+}
+
+.purview__bases__right-1::after {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-4-2.png);
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -45px;
+}
+.purview__bases__right-1::before {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-4-3.png);
+	width: 100px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -95px;
+}
+
+.purview__bases__right-2 {
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-5-1.jpg);
+	margin: 100px 0 10px 0;
+	font-size: 0.5em;
+	position: absolute;
+	z-index: 10;
+	padding: 2px 45px;
+}
+
+.purview__bases__right-2::after {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-5-2.png);
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -45px;
+}
+.purview__bases__right-2::before {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-5-3.png);
+	width: 100px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -95px;
+}
+
+.purview__bases__right-3 { 
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-6.1.jpg);
+	margin: 130px 0 10px 0;
+	font-size: 0.5em;
+	position: absolute;
+	z-index: 10;
+	padding: 2px 45px;
+}
+
+.purview__bases__right-3::after {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-6-2.png);
+	width: 50px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -45px;
+}
+.purview__bases__right-3::before {
+	content: '';
+	background-image: url(../image/block-purview/gfeen-bgrnd/Rectangle-6-copy-6-3.png);
+	width: 100px;
+	height: 19px;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	right: -95px;
+}
+
+.purview__industrial__footer {
+	background-image: url(../image/block-purview/Rectangle-8.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 24px;
+	position: absolute;
+	top: 285px;
+	z-index: 10;
+}
+
+.purview__industrial__footer::after {
+	content: '';
+	background-image: url(../image/block-purview/logo-text.png);
+	background-repeat: no-repeat;
+	width: 169px;
+	height: 15px;
+	position: absolute;
+	left: 70px;
+	top: 5px;
+	z-index: 10;
+}
+
+.purview__industrial__footer::before {
+	content: '';
+	background-image: url(../image/block-purview/logo-white.png);
+	background-repeat: no-repeat;
+	width: 19px;
+	height: 15px;
+	position: absolute;
+    left: 45px;
+    top: 5px;
+	z-index: 10;
+}
+
+/* асортимент */
+.purview__assortment {
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.purview__element {
+	width: 190px;
+	margin: 1px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.purview__block-element1,
+.purview__block-element2 {
+	display: flex;
+}
+
+.purview__element p {
+	text-align: center;
+	color: #01953b;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.purview__block-element1 .purview__element:nth-child(even) {
+	margin-top: 50px;
+}
+
+.purview__block-element2 .purview__element:nth-child(odd) {
+	margin-top: 50px;
+}

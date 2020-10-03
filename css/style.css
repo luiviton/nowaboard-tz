@@ -1,0 +1,733 @@
+
+
+html {
+    width: 100%;
+    max-width: 100%;
+	overflow-x: hidden;
+	font-family: Arial, sans-serif;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	background: #01983b;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/* ..............nav.............. */
+.nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 990px;
+}
+
+.first-nav__element {
+	margin-right: 19px;
+	white-space: nowrap;
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.last-nav__element {
+	margin-left: 19px;
+	white-space: nowrap;
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.nav__element {
+	margin: 25px 19px;
+	white-space: nowrap;
+	height: 25px;
+	display: flex;
+	align-items: center;
+}
+
+.nav__element:hover,
+.first-nav__element:hover,
+.last-nav__element:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+
+/*..........блок со слайдером...........*/
+.section-carousel {
+	margin-top: 40px;
+	background-image: url(../image/art_museum_render_1_by_rednotdead-d46qdi9-copy.jpg);
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+
+.section-carousel__center {
+	width: 980px;
+}
+
+.section-carousel__element {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.section-carousel__logo {
+	margin-top: 5px;
+}
+
+.section-carousel__soceal {
+	display: inline-flex;
+	color: #01983b;
+	margin-left: 130px;	
+}
+
+.section-carousel__soceal a {
+	margin-left: 10px;
+}
+
+.section-carousel__soceal p {
+    margin-top: 6px;
+    margin-left: 50px;
+    font-size: 0.8em;
+}
+
+.section-carousel__soceal img:hover {
+	transform: scale(1.2);
+}
+
+.section-carousel__telefon a:hover {
+	border-bottom: 1px solid #2c2783;
+}
+
+.section-carousel__telefon a:active {
+	border-bottom: 1px solid #2c2783;
+	color: black;
+}
+
+.section-carousel__telefon a {
+	color: #2c2783;
+}
+
+.section-carousel__telefon {
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.carousel-input {
+	margin-top: 5px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #bababa;
+	width: 95%;
+}
+
+.carousel-button {
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+}
+
+.carousel-form {
+	display: flex;
+}
+
+.section-carousel__carousel {
+	position: relative;
+	width: 980px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+.section-carousel__shadow {
+	background-image: url(../image/Shadow-02.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	bottom: 25px;
+	left: -130px;
+	width: 130%;
+	height: 117px;
+}
+
+.section-carousel__shadow::after {
+	content: '';
+	background-image: url(../image/Shadow-03.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	bottom: 20px;
+	right: 100px;
+}
+
+.slide__block {
+	position: absolute;
+	bottom: 50px;
+	width: 750px;
+	height: 100px;
+	background: #222;
+    padding: 10px;
+    opacity: 0.5; 
+    filter: alpha(Opacity=50);
+    color: #fff;
+}
+
+.slide__block-text {
+	position: absolute;
+	bottom: 50px;
+	left: 10px;
+	color: #fff;
+	width: 800px;
+}
+
+.slide__block-text p {
+	font-size: 1.7em;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	font-family: 'EuropeExt', Arial, sans-serif;
+}
+
+.slide__block-text h3 {
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	letter-spacing: 2px;
+	font-family: 'EuropeExt', Arial, sans-serif;
+	font-weight: bold;
+}
+
+
+/* ................блок с видео.....................*/
+
+.video-block {
+	width: 100%;
+} 
+
+.video-block__beckground {
+	width: 100%;
+	background-image: url(../image/image-video-block/bgrd11.png);
+	background-repeat: no-repeat;
+	background-position: center 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.video-block__logo {
+	margin-top: 65px;
+	width: 980px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.video-block__heading h2 {
+	font-size: 1.9em;
+}
+
+.video-block__heading {
+	color: #073d79;
+	font-family: EuropeExt, Arial, sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.video-block__logo img {
+	margin-bottom: 20px;
+	margin-right: 5px;
+}
+
+.video-responsive {
+   	height: 0;
+    overflow: hidden;
+    padding-bottom: 30%;
+    position: relative;
+    margin: 0px auto;
+    width: 43%;
+}
+.video-responsive iframe {
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.video-responsive {
+	border: 3px solid #666262;
+}
+
+.shadow {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.7); /* Параметры тени */
+}
+
+.video-block__text p:first-child {
+	margin-top: 50px;
+}
+
+.video-block__text {
+	width: 840px;
+	margin: auto;
+	color: #0a274d;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.video-block__text  p {
+	width: 980px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.novaboard {
+	font-weight: bold;
+}
+
+.video-block__button {
+	width: 400px;
+	padding-top: 20px;
+    height: 40px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+    outline: none;
+    border-radius: 5px;
+    background-image: url(../image/image-video-block/gren-1.jpg);
+    transition: 0.2s;
+    font-family: EuropeExt, Arial, sans-serif;
+	cursor: pointer;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+} 
+
+.video-block__button:hover { 
+	background: #03e058; 
+}
+
+.video-block__button:active {
+    background: #006d2a;
+}
+
+/* .........блок сфера деятельности в другом файле............ */
+
+/* ........... блок характеристик.................. */
+.specifications {
+	display: flex;
+	justify-content: center;
+	background-image: url(../image/block-specifications/bgrnd.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.specifications__center-1220 {
+	border: 2px solid #e6ecf4;
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 1220px;
+}
+
+.specifications__center {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.specifications__heading {
+	margin-top: 100px;
+}
+
+.specifications__logo {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 25px;
+	
+}
+
+.specifications__logo img:first-child {
+	margin-right: 5px;
+}
+
+.specifications__paragraph h2 {
+	font-size: 2em;
+}
+
+.specifications__paragraph {
+	color: #01983b;
+	font-family: EuropeExt, Arial, sans-serif;
+	font-weight: bold;
+
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.background-table {
+	position: relative;
+}
+
+.specifications__table {
+	width: 980px;
+	border: 3px solid #d5dfec;
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+
+.specifications__table tr,
+td {
+	border: 1px solid #d5dfec;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.specifications__table tr:nth-child(even) {
+	background: #f2f5f7;
+}
+
+.specifications__table tr:nth-child(odd) {
+	background: #fff;
+}
+
+.specifications__table td:not(:first-child) {
+	text-align: center;
+}
+
+.specifications__table td:first-child {
+	border: 1px solid #d5dfec;
+	padding-left: 20px;
+
+}
+
+.specifications__table th:first-child {
+	text-align: left;
+	padding-left: 20px;
+}
+
+.specifications__table th {
+	
+	background-image: url(../image/block-specifications/Rectangle-9-copy-6.jpg);
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.specifications__table-shadow1 {
+	background-image: url(../image/block-specifications/Shadow-02-copy-8.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	height: 70px;
+	right: -120px;
+	left: -120px;
+	bottom: -60px;
+	z-index: 2;
+}
+
+.specifications__table-shadow2 {
+	background-image: url(../image/block-specifications/Shadow-03-copy-2.png);
+	position: absolute;
+	background-repeat: no-repeat;
+	bottom: -35px;
+	height: 36px;
+	right: -120px;
+	left: -120px;
+	z-index: 2;
+}
+
+/* ...........блок преимуществ.............. */
+
+.advantages{
+	margin-top: 10px;
+	background-image: url(../image/block/i-regions_par01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+ 
+.advantages__center {
+	width: 1220px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.advantages__heading h2 {
+	font-size: 2em;
+	display: flex;
+	justify-content: center;
+}
+
+.advantages__heading {
+	margin: 40px 0 20px 0;
+	color: #01983b;
+	font-family: EuropeExt, Arial, sans-serif;
+	font-weight: bold;
+}
+
+.advantages__table {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.advantages__element {
+	width: 100%;
+	display: flex;
+}
+
+.advantages__red {
+	background-image: url(../image/block/Rectangle-12-copy-16.png);
+	background-repeat: no-repeat;
+	width: 33%;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	color: white;
+	padding: 13px 0 13px 180px;
+	font-size: 0.9em;
+	position: relative;
+
+}
+
+.advantages__green {
+	background-image: url(../image/block/Rectangle-12-copy-23.png);
+	background-repeat: no-repeat;
+	width: 60%;
+	margin-bottom: 5px;
+	color: white;
+	padding: 13px 120px 13px 50px;
+	font-size: 0.9em;
+	position: relative;
+}
+
+.advantages__red:after {
+	content: '';
+	background-image: url(../image/block/Forma-11.png);
+	position: absolute;
+	width: 31px;
+	height: 30px;
+	top: 5px;
+	left: 135px;
+}
+
+.advantages__green:after {
+	content: '';
+	background-image: url(../image/block/Forma-1-copy-5.png);
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 5px;
+	left: 10px;
+}
+
+/* .........блок с наградами............ */
+.rewards {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.rewards__center {
+	width: 980px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin-bottom: -15px;
+}
+
+.rewards__logo {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.rewards__logo img:first-child {
+	margin-right: 5px;
+}
+
+.rewards__heading h2 {
+	font-size: 1.9em;
+}
+
+.rewards__heading {
+	margin-top: 20px;
+	color: #2c2783;
+	font-family: EuropeExt, Arial, sans-serif;
+	font-weight: bold;
+
+}
+
+.rewards__certificates{
+	display: flex;
+}
+
+.rewards__certificates img {
+	width: 145px;
+	height: 205px;
+	margin: 30px 15px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.rewards__bonus {
+	color: #2c2783;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+.rewards__logo-concurs img{
+	width: 120px;
+	height: 120px;
+	margin-bottom: 30px;
+}
+
+.rewards__contact {
+	background: #05993e;
+	width: 1225px;
+	height: 200px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+}
+
+.rewards__contact__center a:hover {
+	border-bottom: 1px solid #444444;
+}
+
+.rewards__contact__center a:active {
+	border-bottom: 1px solid #444444;
+	color: black;
+}
+
+.rewards__contact {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rewards__contact__center {
+	color: white;
+	text-align: center;
+	bottom: 35px;
+}
+
+.rewards__contact__center h3 {
+	font-weight: bold;
+	font-size: 1.8em;
+	font-family: EuropeExt, Arial, sans-serif;
+	margin-bottom: 10px;
+}
+
+.rewards__contact__center p:nth-child(2) {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+.rewards__contact__center p:nth-child(3) {
+	margin-bottom: 10px;
+}
+
+.rewards__map {
+	width: 100%;
+	height: 340px;
+}
+
+
+/*................Футер..............*/
+
+
+footer {
+	background-image: url(../image/footer/Rectangle-1-copy-4.jpg);
+	height: 310px;
+	display: flex;
+	flex-direction: column;
+	align-items:  center;
+	position: relative;
+}
+
+footer::before {
+	content: '';
+	background-image: url(../image/footer/PENOBOARD.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 172px;
+	background-position: center;
+	position: absolute;
+	top: 70px;
+	left: 0;
+	opacity: 0.1;
+}
+
+.footer__logo {
+	margin-top: 30px;
+}
+
+.footer__logo-text {
+	margin-top: 10px;
+}
+
+.footer__link {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__link__in,
+.footer__link__vk {
+	transform: scale(1);
+}
+
+.footer__link__in:hover,
+.footer__link__vk:hover {
+	transform: scale(1.3);
+}
+
+
+
+footer p {
+	color: white;
+	margin-top: 10px;
+}
+
+.footer__paragraph {
+	color: white;
+	margin-top: 10px;
+	font-family: EuropeExt, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 0.6em;
+}
+
+.footer__link {
+	margin-top: 20px;
+}
+
+.footer__link a {
+	margin: 10px;
+}
+
+.author {
+	margin-top: 60px;
+	text-align: center;
+	font-size: 0.8em;
+}
